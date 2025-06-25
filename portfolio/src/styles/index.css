@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@400;500;600&display=swap");
+
+:root {
+  --color-primary: #3B82F6;      /* Azul vivo - tema oscuro y claro */
+  --color-secondary: #8B5CF6;    /* Morado vivo - tema oscuro y claro */
+  
+  /* Fondo y texto modo claro */
+  --color-bg: #F9FAFB;  
+  --color-text: #111827;  
+  --color-surface: #CBD5E1;  
+}
+
+.dark {
+  /* Fondo y texto modo oscuro */
+  --color-bg: #1E293B;          
+  --color-text: #F1F5F9;       
+  --color-surface: #0F172A;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Reddit Sans", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.dark body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+@layer base {
+  body {
+    @apply font-reddit;
+    background-color: var(--color-bg);
+  }
+}
