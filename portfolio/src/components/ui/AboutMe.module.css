@@ -1,22 +1,23 @@
 .aboutMe {
+  padding: 4rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 4rem;
-  flex-direction: column;
 }
 
-.profile {
+.containerPC {
   display: flex;
-  align-items: center;
+  gap: 3rem;
+  max-width: 900px;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .profileImage {
+  flex: 0 0 260px;
   border-radius: 50%;
+  border: 4px solid var(--color-surface);
   overflow: hidden;
-  margin-right: 2rem;
-  width: 150px;
-  height: 150px;
+  height: 260px;
 }
 
 .profileImage img {
@@ -25,8 +26,15 @@
   object-fit: cover;
 }
 
+.rightColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .profileText {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .name {
@@ -47,12 +55,9 @@
 }
 
 .contactSection {
-  width: 100%;
-  max-width: 700px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 2rem;
 }
 
 .links {
@@ -60,7 +65,6 @@
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
 }
 
 .linkButton {
@@ -89,35 +93,64 @@
   transform: translateY(-2px);
 }
 
+@media (max-width: 828px) {
+  .profileImage {
+    flex: none;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+
 @media (max-width: 768px) {
   .aboutMe {
-    gap: 1rem;
-  }
-
-  .profile {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
+    padding: 2rem 1rem;
   }
 
   .profileImage {
-    margin-right: 0;
+    flex: none;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  .profileImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .containerPC {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .rightColumn {
+    width: 100%;
+    align-items: center;
   }
 
   .profileText {
-    max-width: 100%;
-    gap: 1rem;
+    text-align: center;
+  }
+
+  .links {
+    justify-content: center;
   }
 
   .linkButton {
     flex: 1 1 100%;
     text-align: center;
-    align-items: center;
     justify-content: center;
   }
 
   .contactSection {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0;
   }
 }
