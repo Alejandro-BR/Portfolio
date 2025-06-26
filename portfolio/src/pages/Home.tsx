@@ -1,13 +1,12 @@
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
+import AboutMe from "../components/ui/AboutMe";
 
 function Home() {
-  const { t } = useTranslation();
-
+  // const { t } = useTranslation();
 
   return (
     <div>
-      <h1>{t("welcome")}</h1>
-      <p>{t("description")}</p>
+      <AboutMe />
     </div>
   );
 }

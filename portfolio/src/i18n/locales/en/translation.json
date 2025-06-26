@@ -1,8 +1,12 @@
 {
   "welcome": "Welcome",
-  "description": "This is your portfolio",
+  "description": "",
   "switchToLightMode": "Switch to light mode",
   "switchToDarkMode": "Switch to dark mode",
   "switchToSpanish": "Switch to Spanish",
-  "switchToEnglish": "Switch to English"
+  "switchToEnglish": "Switch to English",
+  "aboutMe": "I’m a Full Stack developer passionate about technology, innovation and challenges.",
+  "sendEmail": "Send email",
+  "copyEmail": "Copy email",
+  "copied": "Copied!"
 }

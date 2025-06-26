@@ -22,8 +22,6 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <p className={styles.title}>Header</p>
-        <p className={styles.title2}>Morado</p>
         <DarkModeToggle />
         <LanguageSwitcher />
       </div>

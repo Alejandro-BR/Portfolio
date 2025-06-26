@@ -1,8 +1,12 @@
 {
   "welcome": "Bienvenido",
-  "description": "Este es tu portafolio",
+  "description": "",
   "switchToLightMode": "Cambiar a modo claro",
   "switchToDarkMode": "Cambiar a modo oscuro",
   "switchToSpanish": "Cambiar a Español",
-  "switchToEnglish": "Cambiar a Inglés"
+  "switchToEnglish": "Cambiar a Inglés",
+  "aboutMe": "Soy un desarrollador Full Stack apasionado por la tecnología, la innovación y los desafíos.",
+  "sendEmail": "Enviar correo",
+  "copyEmail": "Copiar email",
+  "copied": "¡Copiado!"
 }
