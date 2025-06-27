@@ -1,0 +1,32 @@
+.title {
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.company {
+  color: var(--color-secondary); 
+  font-weight: 600;
+}
+
+.period {
+  color: var(--color-primary); 
+}
+
+.description {
+  color: var(--color-text);
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.description li {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bullet {
+  margin-right: 0.5rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}

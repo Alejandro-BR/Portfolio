@@ -1,5 +1,6 @@
 // import { useTranslation } from "react-i18next";
-import AboutMe from "../components/ui/AboutMe";
+import AboutMe from "../components/layouts/AboutMe";
+import Experience from "../components/layouts/Experience";
 
 function Home() {
   // const { t } = useTranslation();
@@ -7,6 +8,7 @@ function Home() {
   return (
     <div>
       <AboutMe />
+      <Experience />
     </div>
   );
 }

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@400;500;600&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-primary: #3B82F6;      /* Azul vivo - tema oscuro y claro */
   --color-secondary: #8B5CF6;    /* Morado vivo - tema oscuro y claro */

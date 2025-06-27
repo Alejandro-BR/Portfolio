@@ -8,5 +8,30 @@
   "aboutMe": "I’m a Full Stack developer passionate about technology, innovation and challenges.",
   "sendEmail": "Send email",
   "copyEmail": "Copy email",
-  "copied": "Copied!"
+  "copied": "Copied!",
+  "experience": "Experience",
+  "experienceItems": [
+    {
+      "id": 1,
+      "title": "FP Dual - FCT",
+      "company": "VIEWNEXT",
+      "period": "January 2025 - June 2025",
+      "description": [
+        "Development of a team project as part of practical training, applying agile methodologies.",
+        "Use of technologies such as Spring Boot, Angular, and Tailwind CSS for web application development.",
+        "Management of MySQL databases using Docker containers.",
+        "Deployment of applications on AWS."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "FP Dual",
+      "company": "VIEWNEXT",
+      "period": "April 2024 - June 2024",
+      "description": [
+        "Practical training in web development using Spring Boot and JavaScript.",
+        "Acquisition and application of complementary technologies for full-stack development."
+      ]
+    }
+  ]
 }

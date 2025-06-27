@@ -1,0 +1,11 @@
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

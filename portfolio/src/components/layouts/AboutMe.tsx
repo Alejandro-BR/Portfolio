@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import styles from "./AboutMe.module.css";
-import EmailActions from "./EmailActions";
+import EmailActions from "../ui/EmailActions";
+
 
 const AboutMe = () => {
   const { t } = useTranslation();
