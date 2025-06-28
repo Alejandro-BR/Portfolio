@@ -33,5 +33,8 @@
         "Acquisition and application of complementary technologies for full-stack development."
       ]
     }
-  ]
+  ],
+  "projects": "Projects",
+  "scrollToImage": "Scroll to image",
+  "theEnigmaCasinoDescription": "It is an online multiplayer platform where users can enjoy classic casino games such as Blackjack, Poker, and Roulette, as well as other mini-games. The system is designed to offer real-time matches between multiple players, with direct interaction through WebSockets, a modern design, and an immersive experience."
 }

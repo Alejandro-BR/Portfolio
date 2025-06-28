@@ -33,5 +33,8 @@
         "Adquisición y aplicación de tecnologías complementarias para el desarrollo full stack."
       ]
     }
-  ]
+  ],
+  "projects": "Proyectos",
+  "scrollToImage": "Desplazar la imagen",
+  "theEnigmaCasinoDescription": "Es una plataforma online multijugador donde los usuarios pueden disfrutar de juegos clásicos de casino como Blackjack, Póker y Ruleta y otros mini juegos. El sistema está diseñado para ofrecer partidas en tiempo real entre varios jugadores, con interacción directa a través de WebSockets, un diseño moderno y una experiencia inmersiva."
 }
