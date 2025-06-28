@@ -6,7 +6,7 @@ function Home() {
   // const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="flex flex-col gap-8 pt-8">
       <AboutMe />
       <Experience />
     </div>

@@ -12,13 +12,17 @@ function Experience() {
   }) as ExperienceItem[];
 
   return (
-    <>
+    <section>
       <div className="flex items-center gap-2 mb-4">
-        <img src={"/svg/work.svg"} alt="Work icon" className="w-[1.8rem] h-[1.8rem]" />
+        <img
+          src={"/svg/work.svg"}
+          alt="Work icon"
+          className="w-[1.8rem] h-[1.8rem]"
+        />
         <h2 className={styles.title}> {t("experience")}</h2>
       </div>
       <ExperienceTimeline experiences={experiences} />
-    </>
+    </section>
   );
 }
 
