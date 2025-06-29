@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import styles from "./AboutMe.module.css";
 import EmailActions from "../ui/EmailActions";
 
-
 const AboutMe = () => {
   const { t } = useTranslation();
 
@@ -15,8 +14,13 @@ const AboutMe = () => {
 
         <div className={styles.rightColumn}>
           <div className={styles.profileText}>
-            <h1 className={styles.name}>Alejandro</h1>
-            <h1 className={styles.name}>Barrionuevo Rosado</h1>
+            <h1 className={`${styles.name} ${styles.fullName}`}>
+              Alejandro Barrionuevo Rosado
+            </h1>
+            <div className={styles.mobileNames}>
+              <h1 className={styles.name}>Alejandro</h1>
+              <h1 className={styles.name}>Barrionuevo Rosado</h1>
+            </div>
             <p className={styles.info}>{t("aboutMe")}</p>
           </div>
 
