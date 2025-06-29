@@ -102,6 +102,17 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
             Demo
           </a>
         )}
+        {links.npm && (
+          <a
+            href={links.npm}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.linkButton}
+          >
+            <img src="/svg/tech/npm.svg" alt="NPM" />
+            NPM
+          </a>
+        )}
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ export interface Tech {
 export interface ProjectLinks {
   github?: string;
   demo?: string;
+  npm?: string;
 }
 
 export interface ProjectCardInterface {

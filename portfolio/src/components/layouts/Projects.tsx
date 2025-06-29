@@ -84,7 +84,7 @@ const Projects = () => {
       ],
       links: {
         github: "https://github.com/Alejandro-BR/Webpify-cli",
-        demo: "https://www.npmjs.com/package/webpify-cli",
+        npm: "https://www.npmjs.com/package/webpify-cli",
       },
     },
   ];
