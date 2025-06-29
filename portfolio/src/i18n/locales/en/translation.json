@@ -36,5 +36,8 @@
   ],
   "projects": "Projects",
   "scrollToImage": "Scroll to image",
-  "theEnigmaCasinoDescription": "It is an online multiplayer platform where users can enjoy classic casino games such as Blackjack, Poker, and Roulette, as well as other mini-games. The system is designed to offer real-time matches between multiple players, with direct interaction through WebSockets, a modern design, and an immersive experience."
+  "theEnigmaCasinoDescription": "Full Stack development of an online multiplayer platform featuring classic casino games such as Blackjack, Poker, Roulette, and various mini-games. Supports real-time matches between players through WebSockets, with direct interaction, modern design, and an immersive user experience. Project developed as part of my Final Degree Project.",
+  "autoNextCodeDescription": "Full Stack development of a web platform for managing and booking electric vehicle charging stations in corporate environments. Supports advanced reservations based on location, floor, charger, schedule, or vehicle, with attendance control, absence management, secure authentication, and an admin panel with reporting features. Project developed during my internship (FCT) at Viewnext.",
+  "vhyperGamesDescription": "Full Stack development of an online video game store with complete features, from design in Figma to production deployment. Includes payment system with Stripe and MetaMask, admin panel, secure authentication, and AI-powered review analysis.",
+  "webpifyDescription": "Command-line tool developed in Node.js that converts PNG, JPG, HEIC, and HEIF images to optimized WebP format for the web. Enables lossless compression to improve loading times. Open-source npm package with over 150 downloads."
 }

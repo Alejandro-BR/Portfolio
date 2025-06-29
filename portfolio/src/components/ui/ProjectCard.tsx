@@ -3,26 +3,9 @@ import styles from "./ProjectCard.module.css";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslation } from "react-i18next";
+import type { ProjectCardInterface } from "../../interfaces/ProjectCard.interface";
 
-interface Tech {
-  name: string;
-  icon: string;
-}
-
-interface ProjectLinks {
-  github?: string;
-  demo?: string;
-}
-
-interface ProjectCardProps {
-  title: string;
-  description: string;
-  images: string[];
-  techs: Tech[];
-  links: ProjectLinks;
-}
-
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const ProjectCard: React.FC<ProjectCardInterface> = ({
   title,
   description,
   images,
