@@ -90,7 +90,7 @@ const Projects = () => {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <div className="flex items-center gap-2 mb-4">
         <img
           src="/svg/folder_code.svg"

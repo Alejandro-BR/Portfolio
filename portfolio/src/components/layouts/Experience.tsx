@@ -12,7 +12,7 @@ function Experience() {
   }) as ExperienceItem[];
 
   return (
-    <section>
+    <section id="experience">
       <div className="flex items-center gap-2 mb-4">
         <img
           src={"/svg/work.svg"}

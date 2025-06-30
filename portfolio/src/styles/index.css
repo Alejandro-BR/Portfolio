@@ -38,6 +38,15 @@ body {
   color: var(--color-text);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 95px;
+}
+
+
 @layer base {
   body {
     @apply font-reddit;

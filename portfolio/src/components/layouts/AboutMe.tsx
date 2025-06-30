@@ -6,7 +6,7 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <div className={styles.aboutMe}>
+    <section id="about" className={styles.aboutMe}>
       <div className={styles.containerPC}>
         <div className={styles.profileImage}>
           <img src="/img/myPhoto.webp" alt="Alejandro BR" />
@@ -58,7 +58,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

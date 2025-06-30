@@ -32,7 +32,7 @@ function Education() {
   ];
 
   return (
-    <section className="">
+    <section id="education">
       <div className="flex items-center gap-2 mb-4">
         <img
           src="/svg/school.svg"
