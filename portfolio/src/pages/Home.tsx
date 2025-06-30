@@ -1,4 +1,5 @@
 import AboutMe from "../components/layouts/AboutMe";
+import Education from "../components/layouts/Education";
 import Experience from "../components/layouts/Experience";
 import Projects from "../components/layouts/Projects";
 
@@ -9,6 +10,7 @@ function Home() {
       <AboutMe />
       <Experience />
       <Projects />
+      <Education />
     </div>
   );
 }
