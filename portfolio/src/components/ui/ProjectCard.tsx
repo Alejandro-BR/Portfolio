@@ -36,36 +36,37 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="bg-[var(--color-surface)] p-4 rounded-2xl shadow-md h-full flex flex-col gap-4">
-      <div className="overflow-hidden rounded-lg" ref={emblaRef}>
-        <div className="flex">
-          {images.map((img, idx) => (
-            <div className="min-w-full" key={idx}>
-              <img
-                src={img}
-                alt={`screenshot-${idx}`}
-                className="w-full aspect-video object-contain rounded-lg"
+    <div className="bg-[var(--color-surface)] p-4 rounded-2xl shadow-md h-full flex flex-col gap-5">
+      <div>
+        <div className="overflow-hidden rounded-lg" ref={emblaRef}>
+          <div className="flex">
+            {images.map((img, idx) => (
+              <div className="min-w-full" key={idx}>
+                <img
+                  src={img}
+                  alt={`screenshot-${idx}`}
+                  className="w-full aspect-video object-contain rounded-lg"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {images.length > 1 && (
+          <div className="flex justify-center gap-2">
+            {images.map((_, i) => (
+              <button
+                title={t("scrollToImage")}
+                key={i}
+                onClick={() => scrollTo(i)}
+                className={`w-3 h-3 rounded-full transition-colors duration-200 ${
+                  i === selectedIndex ? "bg-primary" : "bg-gray-400"
+                }`}
               />
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
-
-      {images.length > 1 && (
-        <div className="flex justify-center gap-2 mt-2">
-          {images.map((_, i) => (
-            <button
-              title={t("scrollToImage")}
-              key={i}
-              onClick={() => scrollTo(i)}
-              className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-                i === selectedIndex ? "bg-primary" : "bg-gray-400"
-              }`}
-            />
-          ))}
-        </div>
-      )}
-
       <h3 className="text-xl font-semibold">{title}</h3>
       <p className="text-sm">{description}</p>
 
