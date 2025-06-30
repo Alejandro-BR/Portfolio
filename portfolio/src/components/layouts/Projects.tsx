@@ -11,11 +11,11 @@ const Projects = () => {
       title: "The Enigma Casino",
       description: t("theEnigmaCasinoDescription"),
       images: [
-        "/img/landing.png",
-        "/img/home.png",
-        "/img/ruleta.png",
-        "/img/poker.png",
-        "/img/blackjack.png",
+        "/img/landing.webp",
+        "/img/home.webp",
+        "/img/ruleta.webp",
+        "/img/poker.webp",
+        "/img/blackjack.webp",
       ],
       techs: [
         { name: ".Net", icon: "/svg/tech/dotnet.svg" },
@@ -36,7 +36,7 @@ const Projects = () => {
       title: "AutoNext-Code",
       description:
         t("autoNextCodeDescription"),
-      images: ["/img/loginAutoNext.png", "/img/reservationsAutoNext.png", "/img/dashboardAutoNext.png", "/img/historyAutoNext.png"],
+      images: ["/img/loginAutoNext.webp", "/img/reservationsAutoNext.webp", "/img/dashboardAutoNext.webp", "/img/historyAutoNext.webp"],
       techs: [
         { name: "Spring Boot", icon: "/svg/tech/springboot.svg" },
         { name: "Java", icon: "/svg/tech/java.svg" },
@@ -52,10 +52,10 @@ const Projects = () => {
       title: "VhyperGames",
       description: t("vhyperGamesDescription"),
       images: [
-        "/img/homeVhyperGames.png",
-        "/img/catalogVhyperGames.png",
-        "/img/cartVhyperGames.png",
-        "/img/productsVhyperGames.png",
+        "/img/homeVhyperGames.webp",
+        "/img/catalogVhyperGames.webp",
+        "/img/cartVhyperGames.webp",
+        "/img/productsVhyperGames.webp",
       ],
       techs: [
         { name: ".Net", icon: "/svg/tech/dotnet.svg" },
@@ -74,9 +74,9 @@ const Projects = () => {
       title: "Webpify-cli",
       description: t("webpifyDescription"),
       images: [
-        "/img/cmd1.png",
-        "/img/cmd2.png",
-        "/img/npm.png",
+        "/img/cmd1.webp",
+        "/img/cmd2.webp",
+        "/img/npm.webp",
       ],
       techs: [
         { name: "JavaScript", icon: "/svg/tech/javascript.svg" },
