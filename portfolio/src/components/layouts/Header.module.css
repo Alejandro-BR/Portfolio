@@ -31,7 +31,7 @@
   color: var(--color-text);
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: color 0.2s ease;
 }
 
 .nav a:hover {
@@ -50,6 +50,10 @@
   border: none;
   cursor: pointer;
   padding: 0;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 .burger {
@@ -65,7 +69,7 @@
   height: 3px;
   width: 100%;
   background: var(--color-text);
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 3px;
 }
 
@@ -83,13 +87,15 @@
   .nav {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: 1rem;
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--color-surface);
     padding: 1rem;
     display: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 150px;
   }
 
   .nav.open {
@@ -97,6 +103,6 @@
   }
 
   .menuToggle {
-    display: block;
+    display: flex;
   }
 }

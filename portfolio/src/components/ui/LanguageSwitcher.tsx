@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
+import styles from "./LanguageSwitcher.module.css";
 
 function LanguageSwitcher() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const currentLang = i18n.language;
 
   const toggleLanguage = () => {
@@ -12,16 +13,11 @@ function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLanguage}
-      title={currentLang === "es" ? t("switchToEnglish") : t("switchToSpanish")}
-      aria-label={currentLang === "es" ? t("switchToEnglish") : t("switchToSpanish")}
-      style={{ cursor: "pointer", border: "none", background: "none", padding: 0 }}
+      className={styles.languageButton}
+      title={currentLang === "es" ? "Switch to English" : "Cambiar a Español"}
+      aria-label={currentLang === "es" ? "Switch to English" : "Cambiar a Español"}
     >
-      <img
-        src={currentLang === "es" ? "/svg/spain-flag.svg" : "/svg/united-kingdom-flag.svg"}
-        alt={currentLang === "es" ? "Español" : "English"}
-        width={24}
-        height={24}
-      />
+      {currentLang.toUpperCase()}
     </button>
   );
 }
