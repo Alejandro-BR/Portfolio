@@ -15,11 +15,14 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-  const scrollTo = useCallback((index: number) => {
-    emblaApi?.scrollTo(index);
-  }, [emblaApi]);
+  const scrollTo = useCallback(
+    (index: number) => {
+      emblaApi?.scrollTo(index);
+    },
+    [emblaApi]
+  );
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -62,7 +65,6 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
           ))}
         </div>
       )}
-
 
       <h3 className="text-xl font-semibold">{title}</h3>
       <p className="text-sm">{description}</p>
@@ -109,8 +111,22 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
             rel="noopener noreferrer"
             className={styles.linkButton}
           >
-            <img src="/svg/tech/npm.svg" alt="NPM" />
-            NPM
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              role="img"
+              aria-labelledby="a7b9p639wwa0y0d4q89w9mxjpw4r29pw"
+            >
+              <title id="a7b9p639wwa0y0d4q89w9mxjpw4r29pw">Npm</title>
+              <path
+                d="M 0 0 L 0 16 L 16 16 L 16 0 L 0 0 z M 3 3 L 13 3 L 13 13 L 11 13 L 11 5 L 8 5 L 8 13 L 3 13 L 3 3 z "
+                fill="currentColor"
+              ></path>
+            </svg>
+            Npm
           </a>
         )}
       </div>
