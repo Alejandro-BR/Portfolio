@@ -31,6 +31,7 @@ function Header() {
           <a href="#experience" onClick={() => setMenuOpen(false)}>{t("experience")}</a>
           <a href="#projects" onClick={() => setMenuOpen(false)}>{t("projects")}</a>
           <a href="#education" onClick={() => setMenuOpen(false)}>{t("education")}</a>
+          <a href="#technologies" onClick={() => setMenuOpen(false)}>{t("technologies")}</a>
         </nav>
 
         <div className={styles.controls}>

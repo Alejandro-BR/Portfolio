@@ -2,6 +2,7 @@ import AboutMe from "../components/layouts/AboutMe";
 import Education from "../components/layouts/Education";
 import Experience from "../components/layouts/Experience";
 import Projects from "../components/layouts/Projects";
+import Technologies from "../components/layouts/Technologies";
 
 function Home() {
 
@@ -11,6 +12,7 @@ function Home() {
       <Experience />
       <Projects />
       <Education />
+      <Technologies />
     </div>
   );
 }
