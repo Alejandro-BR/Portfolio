@@ -1,0 +1,24 @@
+{
+  "name": "Porfolio Alejandro BR",
+  "short_name": "Alejandro BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1E293B",
+  "theme_color": "#0F172A",
+  "orientation": "portrait",
+  "description": "Portfolio de Alejandro Barrionuevo Rosado, desarrollador Full Stack.",
+  "lang": "en",
+  "categories": ["portfolio", "full stack", "developer", "web development"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
