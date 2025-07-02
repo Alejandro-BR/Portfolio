@@ -13,8 +13,6 @@ Este es mi portafolio personal, donde muestro quién soy, mi experiencia profesi
 
 ## 🛠 Tecnologías utilizadas
 
-El portfolio está construido con herramientas modernas del ecosistema frontend:
-
 <p align="left">
   <img src="/portfolio/public/svg/tech/react.svg" alt="React" width="32" height="32" />
   <img src="/portfolio/public/svg/tech/typescript.svg" alt="TypeScript" width="32" height="32" />
@@ -22,8 +20,7 @@ El portfolio está construido con herramientas modernas del ecosistema frontend:
   <img src="/portfolio/public/svg/tech/tailwindcss.svg" alt="Tailwind CSS" width="32" height="32" />
 </p>
 
-- ⚡️ Vite  
-- 🌍 i18next (soporte multilenguaje)
+🌍 i18next (soporte multilenguaje)
 
 <br>
 
