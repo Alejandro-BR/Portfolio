@@ -47,5 +47,7 @@
   "february": "February",
   "aboutMeTitle": "About Me",
   "technologies": "Technologies",
-  "others": "Others"
+  "others": "Others",
+  "footer.github.cta": "To see more projects, visit my GitHub.",
+  "thanks": "Thanks for visiting my portfolio!"
 }
