@@ -43,7 +43,7 @@ function Technologies() {
         src={tech.icon}
         alt={tech.name}
         title={tech.name}
-        className="w-8 h-8"
+        className={styles.techIcon}
       />
     ));
 
@@ -58,39 +58,33 @@ function Technologies() {
         <h2 className={styles.title}>{t("technologies")}</h2>
       </div>
 
-      {/* Backend */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-2">
-          <img src="/svg/dns.svg" alt="Backend icon" className="w-[1.5rem] h-[1.5rem]" />
-          <h3 className={styles.subTitle}>Backend</h3>
+      <div className={styles.techGrid}>
+        {/* Backend */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <img src="/svg/dns.svg" alt="Backend icon" className={styles.icon} />
+            <h3 className={styles.subTitle}>Backend</h3>
+          </div>
+          <div className={styles.techList}>{renderTechList(backendTechs)}</div>
         </div>
-        <div className="flex flex-wrap gap-3">
-          {renderTechList(backendTechs)}
-        </div>
-      </div>
 
-      {/* Frontend */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-2">
-          <img
-            src="/svg/language.svg"
-            alt="Frontend icon"
-            className="w-[1.5rem] h-[1.5rem]"
-          />
-          <h3 className={styles.subTitle}>Frontend</h3>
+        {/* Frontend */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <img src="/svg/language.svg" alt="Frontend icon" className={styles.icon} />
+            <h3 className={styles.subTitle}>Frontend</h3>
+          </div>
+          <div className={styles.techList}>{renderTechList(frontendTechs)}</div>
         </div>
-        <div className="flex flex-wrap gap-3">
-          {renderTechList(frontendTechs)}
-        </div>
-      </div>
 
-      {/* Others */}
-      <div className="mb-6">
-        <div className="flex items-center gap-2 mb-2">
-          <img src="/svg/code.svg" alt="Other icon" className="w-[1.5rem] h-[1.5rem]" />
-          <h3 className={styles.subTitle}>{t("others")}</h3>
+        {/* Others */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <img src="/svg/code.svg" alt="Other icon" className={styles.icon} />
+            <h3 className={styles.subTitle}>{t("others")}</h3>
+          </div>
+          <div className={styles.techList}>{renderTechList(otherTechs)}</div>
         </div>
-        <div className="flex flex-wrap gap-3">{renderTechList(otherTechs)}</div>
       </div>
     </section>
   );
