@@ -8,6 +8,8 @@ function LanguageSwitcher() {
   const toggleLanguage = () => {
     const newLang = currentLang === "es" ? "en" : "es";
     i18n.changeLanguage(newLang);
+    localStorage.setItem("selectedLanguage", newLang);
+    document.documentElement.lang = newLang;
   };
 
   return (
