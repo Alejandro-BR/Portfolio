@@ -34,6 +34,7 @@ function Technologies() {
     { name: "Jira", icon: "/svg/tech/jira.svg" },
     { name: "Postman", icon: "/svg/tech/postman.svg" },
     { name: "Arduino", icon: "/svg/tech/arduino.svg" },
+    { name: "Linux", icon: "/svg/tech/linux.svg" },
   ];
 
   const renderTechList = (techList: typeof backendTechs) =>
