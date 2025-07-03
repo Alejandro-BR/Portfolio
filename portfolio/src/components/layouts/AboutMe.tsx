@@ -3,7 +3,11 @@ import styles from "./AboutMe.module.css";
 import EmailActions from "../ui/EmailActions";
 
 const AboutMe = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const lang = i18n.language || "en";
+  const langSuffix = lang.startsWith("es") ? "_es" : "_en";
+  const cvPath = `/docs/Alejandro_Barrionuevo_Rosado_CV${langSuffix}.pdf`;
 
   return (
     <section id="about" className={styles.aboutMe}>
@@ -45,7 +49,7 @@ const AboutMe = () => {
                 LinkedIn
               </a>
               <a
-                href="/docs/Alejandro_Barrionuevo_Rosado_CV.pdf"
+                href={cvPath}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.linkButton}
