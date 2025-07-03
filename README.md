@@ -7,6 +7,10 @@ Este es mi portafolio personal, donde muestro quién soy, mi experiencia profesi
 > En proceso de desarrollo...
 >
 
+![web](/img/pc.png)
+
+![movil](/img/movil2.png)
+
 <br>
 
 ---
