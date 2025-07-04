@@ -49,5 +49,7 @@
   "technologies": "Technologies",
   "others": "Others",
   "footer.github.cta": "To see more projects, visit my GitHub.",
-  "thanks": "Thanks for visiting my portfolio!"
+  "thanks": "Thanks for visiting my portfolio!",
+  "error": "Oops... We couldn't find this page.",
+  "goBackHome": "Return to homepage"
 }
