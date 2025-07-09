@@ -51,5 +51,32 @@
   "footer.github.cta": "Para ver más proyectos, visita mi GitHub.",
   "thanks": "¡Gracias por visitar mi portfolio!",
   "error": "Oops... No pudimos encontrar esta página.",
-  "goBackHome": "Volver al inicio"
+  "goBackHome": "Volver al inicio",
+  "viewDetails": "Ver detalles",
+  "theEnigmaCasinoFeatures": [
+    "Multijugador en tiempo real con WebSockets",
+    "Juegos de casino: Blackjack, Póker, Ruleta, etc.",
+    "Diseño moderno e interfaz inmersiva",
+    "Arquitectura Full Stack escalable"
+  ],
+  "autoNextCodeFeatures": [
+    "Sistema de reservas avanzado y gestión de inasistencias",
+    "Control de usuarios y panel de administración",
+    "Despliegue en entorno corporativo",
+    "Autenticación segura con múltiples roles"
+  ],
+  "vhyperGamesFeatures": [
+    "E-commerce de videojuegos con pagos integrados",
+    "Autenticación segura y panel admin",
+    "Análisis de reseñas con IA",
+    "Integración de MetaMask y Stripe"
+  ],
+  "webpifyFeatures": [
+    "Conversión de imágenes a WebP desde el terminal",
+    "Soporte para múltiples formatos (PNG, JPG, HEIC, HEIF)",
+    "Compresión sin pérdida para web",
+    "Más de 150 descargas en npm"
+  ],
+  "features": "Características",
+  "webpifyExtraInfo": "Para instalar webpify-cli, ejecuta este comando en tu terminal:  npm i -g webpify-cli"
 }

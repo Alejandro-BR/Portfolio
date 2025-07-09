@@ -1,12 +1,15 @@
 import { useEffect, useState } from "react";
-import DarkModeToggle from "../ui/DarkModeToggle";
-import styles from "./Header.module.css";
-import LanguageSwitcher from "../ui/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { useLocation, useNavigate } from "react-router-dom";
+import DarkModeToggle from "../ui/DarkModeToggle";
+import LanguageSwitcher from "../ui/LanguageSwitcher";
+import styles from "./Header.module.css";
 
 function Header() {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
@@ -21,17 +24,30 @@ function Header() {
     }
   }, []);
 
+  const handleNavClick = (hash: string) => {
+    setMenuOpen(false);
+
+    if (location.pathname !== "/") {
+      navigate(`/${hash}`, { replace: false });
+    } else {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>Alejandro BR</div>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
-          <a href="#about" onClick={() => setMenuOpen(false)}>{t("aboutMeTitle")}</a>
-          <a href="#experience" onClick={() => setMenuOpen(false)}>{t("experience")}</a>
-          <a href="#projects" onClick={() => setMenuOpen(false)}>{t("projects")}</a>
-          <a href="#education" onClick={() => setMenuOpen(false)}>{t("education")}</a>
-          <a href="#technologies" onClick={() => setMenuOpen(false)}>{t("technologies")}</a>
+          <a href="#about" onClick={(e) => { e.preventDefault(); handleNavClick("#about"); }}>{t("aboutMeTitle")}</a>
+          <a href="#experience" onClick={(e) => { e.preventDefault(); handleNavClick("#experience"); }}>{t("experience")}</a>
+          <a href="#projects" onClick={(e) => { e.preventDefault(); handleNavClick("#projects"); }}>{t("projects")}</a>
+          <a href="#education" onClick={(e) => { e.preventDefault(); handleNavClick("#education"); }}>{t("education")}</a>
+          <a href="#technologies" onClick={(e) => { e.preventDefault(); handleNavClick("#technologies"); }}>{t("technologies")}</a>
         </nav>
 
         <div className={styles.controls}>

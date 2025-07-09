@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslation } from "react-i18next";
 import type { ProjectCardInterface } from "../../interfaces/ProjectCard.interface";
+import { Link } from "react-router-dom";
 
 const ProjectCard: React.FC<ProjectCardInterface> = ({
   title,
@@ -11,6 +12,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
   images,
   techs,
   links,
+  slug,
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -130,6 +132,24 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
             Npm
           </a>
         )}
+      </div>
+      <div className="flex justify-end">
+        <Link
+          to={`/projects/${slug}`}
+          title={t("viewDetails")}
+          className="transition hover:scale-105"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 -960 960 960"
+            width="32"
+            height="32"
+            fill="var(--color-primary)"
+            className="transition-colors duration-200 hover:fill-[var(--color-secondary)]"
+          >
+            <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+          </svg>
+        </Link>
       </div>
     </div>
   );

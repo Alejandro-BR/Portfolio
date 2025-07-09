@@ -10,9 +10,12 @@ export interface ProjectLinks {
 }
 
 export interface ProjectCardInterface {
+  slug?: string;
   title: string;
   description: string;
   images: string[];
   techs: Tech[];
   links: ProjectLinks;
+  features?: string[];
+  extraInfo?: string;
 }
