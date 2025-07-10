@@ -105,9 +105,13 @@
   "webpifyFeatures": [
     "Conversión de imágenes a WebP desde el terminal",
     "Soporte para múltiples formatos (PNG, JPG, HEIC, HEIF)",
-    "Compresión sin pérdida para web",
-    "Más de 150 descargas en npm"
+    "Formato WebP optimizado para uso en web",
+    "Compresión sin pérdida",
+    "Open-source "
   ],
   "features": "Características",
-  "webpifyExtraInfo": "Para instalar webpify-cli, ejecuta este comando en tu terminal:  npm i -g webpify-cli"
+  "webpifyExtraInfo": "Para instalar webpify-cli, ejecuta este comando en tu terminal:  npm i -g webpify-cli",
+  "webpifyCommandHelper": "Para instalar Webpify CLI, ejecuta este comando en tu terminal.",
+  "webpifyRunHelper": "Para ejecutar Webpify, utiliza el siguiente comando:",
+  "instructions": "Instrucciones"
 }

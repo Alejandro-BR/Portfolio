@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslation } from "react-i18next";
 import styles from "./ProjectDetail.module.css";
+import WebpifyInstructions from "../components/ui/WebpifyInstructions";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
@@ -85,6 +86,58 @@ const ProjectDetail = () => {
 
       <p className="text-lg">{project.description}</p>
 
+      {project.links && Object.keys(project.links).length > 0 && (
+        <div className="flex gap-4 flex-wrap items-center justify-center md:justify-start">
+          {project.links.github && (
+            <a
+              href={project.links.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+            >
+              <img src="/svg/github.svg" alt="GitHub" />
+              GitHub
+            </a>
+          )}
+          {project.links.demo && (
+            <a
+              href={project.links.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+            >
+              <img src="/svg/captive_portal.svg" alt="Demo" />
+              Demo
+            </a>
+          )}
+          {project.links.npm && (
+            <a
+              href={project.links.npm}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.linkButton}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                role="img"
+                aria-labelledby="a7b9p639wwa0y0d4q89w9mxjpw4r29pw"
+              >
+                <title id="a7b9p639wwa0y0d4q89w9mxjpw4r29pw">Npm</title>
+                <path
+                  d="M 0 0 L 0 16 L 16 16 L 16 0 L 0 0 z M 3 3 L 13 3 L 13 13 L 11 13 L 11 5 L 8 5 L 8 13 L 3 13 L 3 3 z "
+                  fill="currentColor"
+                ></path>
+              </svg>
+              Npm
+            </a>
+          )}
+        </div>
+      )}
+
       {project.techs && project.techs.length > 0 && (
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
@@ -134,6 +187,8 @@ const ProjectDetail = () => {
       )}
 
       {project.extraInfo && <p className="text-base">{project.extraInfo}</p>}
+
+      {project.slug?.includes("webpify") && <WebpifyInstructions />}
     </section>
   );
 };

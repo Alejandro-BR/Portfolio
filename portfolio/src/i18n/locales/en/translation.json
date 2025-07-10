@@ -106,8 +106,12 @@
     "Command-line tool for converting images to WebP",
     "Supports PNG, JPG, HEIC, and HEIF formats",
     "Optimized WebP format for web use",
-    "Open-source with npm package"
+    "Lossless compression",
+    "Open-source"
   ],
   "features": "Features",
-  "webpifyExtraInfo": "To install webpify-cli, run this command in your terminal:  npm i -g webpify-cli"
+  "webpifyExtraInfo": "To install webpify-cli, run this command in your terminal:  npm i -g webpify-cli",
+  "webpifyCommandHelper": "To install Webpify CLI, run this command in your terminal.",
+  "webpifyRunHelper": "To run Webpify, use the following command:",
+  "instructions": "Instructions"
 }

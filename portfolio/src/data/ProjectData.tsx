@@ -97,7 +97,7 @@ export const useProjectList = (): ProjectCardInterface[] => {
         npm: "https://www.npmjs.com/package/webpify-cli",
       },
       features: t("webpifyFeatures", { returnObjects: true }) as string[],
-      extraInfo: t("webpifyExtraInfo"),
+      // extraInfo: t("webpifyExtraInfo"),
     },
   ];
 };

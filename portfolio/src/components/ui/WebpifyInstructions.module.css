@@ -1,0 +1,54 @@
+.instructionCard {
+  background-color: var(--color-surface);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.commandWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-bg);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.command {
+  font-family: monospace;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.copyBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.copyBtn:hover {
+  opacity: 0.8;
+}
+
+.helperText {
+  font-size: 0.9rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

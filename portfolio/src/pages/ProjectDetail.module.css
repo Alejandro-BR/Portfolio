@@ -54,3 +54,31 @@
     display: inline;
   }
 }
+
+.linkButton {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.53rem 1rem;
+  font-size: 1.1rem;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.linkButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkButton:hover {
+  background-color: var(--color-secondary);
+  color: white;
+  transform: translateY(-2px);
+}
