@@ -36,7 +36,7 @@ export const useProjectList = (): ProjectCardInterface[] => {
     },
     {
       slug: "autonext-code",
-      title: "AutoNext-Code",
+      title: "AutoNext Code",
       description: t("autoNextCodeDescription"),
       images: [
         "/img/loginAutoNext.webp",
@@ -57,8 +57,8 @@ export const useProjectList = (): ProjectCardInterface[] => {
       features: t("autoNextCodeFeatures", { returnObjects: true }) as string[],
     },
     {
-      slug: "vhypergames",
-      title: "VhyperGames",
+      slug: "vhyper-games",
+      title: "Vhyper Games",
       description: t("vhyperGamesDescription"),
       images: [
         "/img/homeVhyperGames.webp",
@@ -81,11 +81,11 @@ export const useProjectList = (): ProjectCardInterface[] => {
       features: t("vhyperGamesFeatures", { returnObjects: true }) as string[],
     },
     {
-      slug: "webpify-cli",
-      title: "Webpify-cli",
+      slug: "webpify",
+      title: "Webpify",
       description: t("webpifyDescription"),
       images: [
-        "/img/cmd1.webp", ///"/img/cmd2.webp",
+        "/img/cmd1.webp",
         "/img/npm.webp",
       ],
       techs: [
