@@ -2,11 +2,6 @@
 
 Este es mi portafolio personal, donde muestro quién soy, mi experiencia profesional, mi formación, los proyectos más relevantes en los que he trabajado y las tecnologías que utilizo en mi día a día como desarrollador.
 
-
-> [!IMPORTANT]
-> En proceso de desarrollo...
->
-
 ![web](/img/pc.png)
 
 ![movil](/img/movil2.png)
