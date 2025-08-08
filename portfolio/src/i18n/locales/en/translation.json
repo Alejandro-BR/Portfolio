@@ -39,7 +39,7 @@
   "theEnigmaCasinoDescription": "Full Stack development of an online multiplayer platform featuring classic casino games such as Blackjack, Poker, Roulette, and various mini-games. Supports real-time matches between players through WebSockets, with direct interaction, modern design, and an immersive user experience. Project developed as part of my Final Degree Project.",
   "autoNextCodeDescription": "Full Stack development of a web platform for managing and booking electric vehicle charging stations in corporate environments. Supports advanced reservations based on location, floor, charger, schedule, or vehicle, with attendance control, absence management, secure authentication, and an admin panel with reporting features. Project developed during my internship (FCT) at Viewnext.",
   "vhyperGamesDescription": "Full Stack development of an online video game store with complete features, from design in Figma to production deployment. Includes payment system with Stripe and MetaMask, admin panel, secure authentication, and AI-powered review analysis.",
-  "webpifyDescription": "Command-line tool developed in Node.js that converts PNG, JPG, HEIC, and HEIF images to optimized WebP format for the web. Enables lossless compression to improve loading times. Open-source npm package with over 200 downloads.",
+  "webpifyDescription": "Command-line tool developed in Node.js that converts PNG, JPG, HEIC, and HEIF images to optimized WebP format for the web. Enables lossless compression to improve loading times. Open-source npm package with over 300 downloads.",
   "education": "Education ",
   "certifications": "Certifications",
   "technicalSuperiorWebDev": "Higher Technician in Web Application Development",
@@ -103,11 +103,16 @@
     "Email notifications sent automatically after each purchase"
   ],
   "webpifyFeatures": [
-    "Command-line tool for converting images to WebP",
-    "Supports PNG, JPG, HEIC, and HEIF formats",
-    "Optimized WebP format for web use",
-    "Lossless compression",
-    "Open-source"
+    "Fast and efficient conversion of images to WebP format.",
+    "Support for PNG, JPG, HEIC, and HEIF.",
+    "Default language: English, with an option to switch to Spanish using --es.",
+    "Automatic mode (--auto) to process all images in the current folder without user interaction.",
+    "Interactive mode with step-by-step guidance in the terminal.",
+    "Full control of input and output paths with --input and --output.",
+    "Informative commands: --help, --version, and --about.",
+    "Image optimization to improve website performance.",
+    "Clear and intuitive CLI with customizable flags.",
+    "Open-source and available on npm and GitHub."
   ],
   "features": "Features",
   "webpifyExtraInfo": "To install webpify-cli, run this command in your terminal:  npm i -g webpify-cli",

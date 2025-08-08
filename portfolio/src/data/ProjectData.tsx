@@ -84,10 +84,7 @@ export const useProjectList = (): ProjectCardInterface[] => {
       slug: "webpify",
       title: "Webpify",
       description: t("webpifyDescription"),
-      images: [
-        "/img/cmd1.webp",
-        "/img/npm.webp",
-      ],
+      images: ["/img/cmd1.webp", "/img/cmd2.webp", "/img/npm.webp"],
       techs: [
         { name: "JavaScript", icon: "/svg/tech/javascript.svg" },
         { name: "Node.js", icon: "/svg/tech/nodejs.svg" },
