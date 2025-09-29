@@ -1,9 +1,16 @@
+.certificationsContainer {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  justify-content: start;
+}
 
 .certificationItem {
   background: var(--color-surface);
   padding: 1rem;
   border-radius: 0.75rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; 
   max-width: 400px;
 }
 
@@ -18,8 +25,12 @@
 }
 
 @media (max-width: 767px) {
+  .certificationsContainer {
+    grid-template-columns: 1fr;
+  }
+
   .certificationItem {
-    width: 100%; 
-    max-width: 600px;
+    width: 100%;
+    max-width: 100%;
   }
 }

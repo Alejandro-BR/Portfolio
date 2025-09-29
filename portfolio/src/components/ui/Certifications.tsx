@@ -7,7 +7,7 @@ type CertificationsProps = {
 
 function Certifications({ certifications }: CertificationsProps) {
   return (
-    <section>
+    <section className={styles.certificationsContainer}>
       {certifications.map(({ id, title, period }) => (
         <div key={id} className={styles.certificationItem}>
           <h4 className={styles.certTitle}>{title}</h4>

@@ -44,6 +44,7 @@
   "certifications": "Certificaciones",
   "technicalSuperiorWebDev": "Técnico superior en Desarrollo de aplicaciones web",
   "technicalTelecomInstallations": "Técnico en Instalaciones de Telecomunicaciones",
+  "specialistAIandBD": "Especialista en Inteligencia Artificial y Big Data",
   "february": "Febrero",
   "aboutMeTitle": "Sobre mí",
   "technologies": "Tecnologías",
@@ -118,5 +119,6 @@
   "webpifyExtraInfo": "Para instalar webpify-cli, ejecuta este comando en tu terminal:  npm i -g webpify-cli",
   "webpifyCommandHelper": "Para instalar Webpify CLI, ejecuta este comando en tu terminal.",
   "webpifyRunHelper": "Para ejecutar Webpify, utiliza el siguiente comando:",
-  "instructions": "Instrucciones"
+  "instructions": "Instrucciones",
+  "inProgress": "En proceso de obtención"
 }

@@ -11,12 +11,18 @@ function Education() {
   const educationData: EducationItem[] = [
     {
       id: 1,
+      title: t("specialistAIandBD"),
+      school: "C.P.I.F.P. Alan Turing, PTA (Málaga)",
+      period: "2025 – 2026 " + t("inProgress"),
+    },
+    {
+      id: 2,
       title: t("technicalSuperiorWebDev"),
       school: "C.P.I.F.P. Alan Turing, PTA (Málaga)",
       period: "2023 – 2025",
     },
     {
-      id: 2,
+      id: 3,
       title: t("technicalTelecomInstallations"),
       school: "C.P.I.F.P. Alan Turing, PTA (Málaga)",
       period: "2021 – 2023",
@@ -26,6 +32,11 @@ function Education() {
   const myCertifications: CertificationItem[] = [
     {
       id: 1,
+      title: "Cambridge English: B1 Preliminary",
+      period: t("inProgress"),
+    },
+    {
+      id: 2,
       title: "AWS Academy Cloud Foundations",
       period: t("february") + " 2024",
     },
