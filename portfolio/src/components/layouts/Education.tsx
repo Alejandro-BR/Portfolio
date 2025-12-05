@@ -32,7 +32,7 @@ function Education() {
   const myCertifications: CertificationItem[] = [
     {
       id: 1,
-      title: "Cambridge English: B1 Preliminary",
+      title: "Cambridge English: B1",
       period: t("inProgress"),
     },
     {
