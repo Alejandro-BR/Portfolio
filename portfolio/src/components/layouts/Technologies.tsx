@@ -9,6 +9,8 @@ function Technologies() {
     { name: "C#", icon: "/svg/tech/csharp.svg" },
     { name: "Java", icon: "/svg/tech/java.svg" },
     { name: "Spring Boot", icon: "/svg/tech/springboot.svg" },
+    {name: "Python", icon: "/svg/tech/python.svg"},
+    {name: "FastApi", icon: "/svg/tech/fastapi.svg"},
     { name: "MySQL", icon: "/svg/tech/mysql.svg" },
     { name: "SQLite", icon: "/svg/tech/sqlite.svg" },
   ];
