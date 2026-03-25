@@ -13,10 +13,11 @@
   "experienceItems": [
     {
       "id": 1,
-      "title": "FP Dual - FCT",
+      "title": "Desarrollador Full Stack",
       "company": "VIEWNEXT",
       "period": "Enero 2025 - Junio 2025",
       "description": [
+        "FP Dual - FCT",
         "Desarrollo de un proyecto en equipo como parte de la formación práctica, aplicando metodologías ágiles.",
         "Uso de tecnologías como Spring Boot, Angular y Tailwind CSS para el desarrollo de aplicaciones web.",
         "Gestión de bases de datos MySQL mediante el uso de contenedores Docker.",
@@ -25,10 +26,11 @@
     },
     {
       "id": 2,
-      "title": "FP Dual",
+      "title": "Desarrollador Full Stack",
       "company": "VIEWNEXT",
       "period": "Abril 2024 - Junio 2024",
       "description": [
+        "FP Dual",
         "Formación práctica en desarrollo web utilizando Spring Boot y JavaScript.",
         "Adquisición y aplicación de tecnologías complementarias para el desarrollo full stack."
       ]

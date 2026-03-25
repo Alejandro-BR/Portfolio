@@ -13,10 +13,11 @@
   "experienceItems": [
     {
       "id": 1,
-      "title": "Dual Training and Internship (FCT)",
+      "title": "Full Stack Developer",
       "company": "VIEWNEXT",
       "period": "January 2025 - June 2025",
       "description": [
+        "Dual Training and Internship (FCT)",
         "Development of a team project as part of practical training, applying agile methodologies.",
         "Use of technologies such as Spring Boot, Angular, and Tailwind CSS for web application development.",
         "Management of MySQL databases using Docker containers.",
@@ -25,10 +26,11 @@
     },
     {
       "id": 2,
-      "title": "Dual Vocational Training ",
+      "title": "Full Stack Developer",
       "company": "VIEWNEXT",
       "period": "April 2024 - June 2024",
       "description": [
+        "Dual Vocational Training ",
         "Practical training in web development using Spring Boot and JavaScript.",
         "Acquisition and application of complementary technologies for full-stack development."
       ]
