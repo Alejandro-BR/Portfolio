@@ -13,6 +13,13 @@
   "experienceItems": [
     {
       "id": 1,
+      "title": "Big Data Intern",
+      "company": "Accenture",
+      "period": "Marzo 2026 - Actualmente",
+      "description": []
+    },
+    {
+      "id": 2,
       "title": "Desarrollador Full Stack",
       "company": "VIEWNEXT",
       "period": "Enero 2025 - Junio 2025",
@@ -25,7 +32,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Desarrollador Full Stack",
       "company": "VIEWNEXT",
       "period": "Abril 2024 - Junio 2024",
