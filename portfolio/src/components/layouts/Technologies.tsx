@@ -9,8 +9,8 @@ function Technologies() {
     { name: "C#", icon: "/svg/tech/csharp.svg" },
     { name: "Java", icon: "/svg/tech/java.svg" },
     { name: "Spring Boot", icon: "/svg/tech/springboot.svg" },
-    {name: "Python", icon: "/svg/tech/python.svg"},
-    {name: "FastApi", icon: "/svg/tech/fastapi.svg"},
+    { name: "Python", icon: "/svg/tech/python.svg" },
+    { name: "FastApi", icon: "/svg/tech/fastapi.svg" },
     { name: "MySQL", icon: "/svg/tech/mysql.svg" },
     { name: "SQLite", icon: "/svg/tech/sqlite.svg" },
   ];
@@ -24,6 +24,21 @@ function Technologies() {
     { name: "CSS", icon: "/svg/tech/css.svg" },
     { name: "HTML5", icon: "/svg/tech/html5.svg" },
     { name: "Effector", icon: "/svg/tech/effector.svg" },
+  ];
+
+  const aiBigDataTechs = [
+    { name: "Python", icon: "/svg/tech/python.svg" },
+    { name: "Jupyter", icon: "/svg/tech/jupyter-plain-wordmark.svg" },
+    { name: "Streamlit", icon: "/svg/tech/streamlit-plain.svg" },
+    { name: "MongoDB", icon: "/svg/tech/mongodb-plain.svg" },
+    { name: "MySQL", icon: "/svg/tech/mysql.svg" },
+    { name: "Tensorflow", icon: "/svg/tech/tensorflow-original.svg" },
+    { name: "keras", icon: "/svg/tech/keras-original.svg" },
+    { name: "PyTorch", icon: "/svg/tech/pytorch-original.svg" },
+    { name: "Scikit Learn", icon: "/svg/tech/scikitlearn-original.svg" },
+    { name: "Apache Spark", icon: "svg/tech/apachespark-original.svg" },
+    { name: "Excel", icon: "svg/tech/Excel.svg"},
+    { name: "Power Bi", icon: "svg/tech/Power_BI.svg"}
   ];
 
   const otherTechs = [
@@ -61,11 +76,28 @@ function Technologies() {
         <h2 className={styles.title}>{t("technologies")}</h2>
       </div>
 
+      {/* AI and Big Data */}
+      <div className={`${styles.card} ${styles.aiBigDataCard}`}>
+        <div className={styles.cardHeader}>
+          <img
+            src="/svg/ai.svg"
+            alt="AI and Big Data icon"
+            className={styles.icon}
+          />
+          <h3 className={styles.subTitle}>{t("aibigdata")}</h3>
+        </div>
+        <div className={styles.techList}>{renderTechList(aiBigDataTechs)}</div>
+      </div>
+
       <div className={styles.techGrid}>
         {/* Backend */}
         <div className={styles.card}>
           <div className={styles.cardHeader}>
-            <img src="/svg/dns.svg" alt="Backend icon" className={styles.icon} />
+            <img
+              src="/svg/dns.svg"
+              alt="Backend icon"
+              className={styles.icon}
+            />
             <h3 className={styles.subTitle}>Backend</h3>
           </div>
           <div className={styles.techList}>{renderTechList(backendTechs)}</div>
@@ -74,7 +106,11 @@ function Technologies() {
         {/* Frontend */}
         <div className={styles.card}>
           <div className={styles.cardHeader}>
-            <img src="/svg/language.svg" alt="Frontend icon" className={styles.icon} />
+            <img
+              src="/svg/language.svg"
+              alt="Frontend icon"
+              className={styles.icon}
+            />
             <h3 className={styles.subTitle}>Frontend</h3>
           </div>
           <div className={styles.techList}>{renderTechList(frontendTechs)}</div>

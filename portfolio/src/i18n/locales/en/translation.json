@@ -129,5 +129,6 @@
   "webpifyCommandHelper": "To install Webpify CLI, run this command in your terminal.",
   "webpifyRunHelper": "To run Webpify, use the following command:",
   "instructions": "Instructions",
-  "inProgress": "In Progress"
+  "inProgress": "In Progress",
+  "aibigdata": "AI and Big Data"
 }

@@ -37,6 +37,9 @@
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.aiBigDataCard {
+  margin-bottom: 2rem;
+}
 
 .cardHeader {
   display: flex;
