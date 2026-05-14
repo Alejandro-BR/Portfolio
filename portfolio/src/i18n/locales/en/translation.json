@@ -13,13 +13,20 @@
   "experienceItems": [
     {
       "id": 1,
-      "title": "Big Data Intern",
+      "title": "Data Engineering, Management & Governance Associate",
       "company": "Accenture",
-      "period": "March 2026 - Present",
+      "period": "May 2026 - Present",
       "description": []
     },
     {
       "id": 2,
+      "title": "Big Data Intern",
+      "company": "Accenture",
+      "period": "March 2026 - May 2026",
+      "description": []
+    },
+    {
+      "id": 3,
       "title": "Full Stack Developer",
       "company": "VIEWNEXT",
       "period": "January 2025 - June 2025",
@@ -32,7 +39,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Full Stack Developer",
       "company": "VIEWNEXT",
       "period": "April 2024 - June 2024",
