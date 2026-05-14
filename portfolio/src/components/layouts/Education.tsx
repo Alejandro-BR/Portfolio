@@ -13,7 +13,7 @@ function Education() {
       id: 1,
       title: t("specialistAIandBD"),
       school: "C.P.I.F.P. Alan Turing, PTA (Málaga)",
-      period: "2025 – 2026 " + t("inProgress"),
+      period: "2025 – 2026 ",
     },
     {
       id: 2,
