@@ -96,5 +96,36 @@ export const useProjectList = (): ProjectCardInterface[] => {
       features: t("webpifyFeatures", { returnObjects: true }) as string[],
       // extraInfo: t("webpifyExtraInfo"),
     },
+    // {
+    //   slug: "Latency-Zero",
+    //   title: "LatencyZero",
+    //   description: t("latencyzeroDescription"),
+    //   images: [
+    //     "/img/landing.webp",
+    //     "/img/home.webp",
+    //     "/img/ruleta.webp",
+    //     "/img/poker.webp",
+    //     "/img/blackjack.webp",
+    //   ],
+    //   techs: [
+    //     { name: "Python", icon: "/svg/tech/python.svg" },
+    //     { name: "FastAPI", icon: "/svg/tech/fastapi.svg" },
+    //     { name: "Angular", icon: "/svg/tech/angular.svg" },
+    //     { name: "TypeScript", icon: "/svg/tech/typescript.svg" },
+    //     { name: "Tailwind CSS", icon: "/svg/tech/tailwindcss.svg" },
+    //     { name: "MySQL", icon: "/svg/tech/mysql.svg" },
+    //     { name: "SQLite", icon: "/svg/tech/sqlite.svg" },
+    //     { name: "Jupyter", icon: "/svg/tech/jupyter-plain-wordmark.svg" },
+    //     { name: "TensorFlow", icon: "/svg/tech/tensorflow-original.svg" },
+    //     { name: "Keras", icon: "/svg/tech/keras-original.svg" },
+    //     { name: "AWS", icon: "/svg/tech/aws.svg" },
+    //   ],
+    //   links: {
+    //     github: "https://github.com/Latency-Zero-tfm/LatencyZero",
+    //   },
+    //   features: t("latencyzeroFeatures", {
+    //     returnObjects: true,
+    //   }) as string[],
+    // },
   ];
 };
