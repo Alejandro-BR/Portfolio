@@ -168,7 +168,7 @@ const ProjectDetail = () => {
         </div>
       )}
 
-      {project.features && project.features.length > 0 && (
+      {Array.isArray(project.features) && project.features.length > 0 && (
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img

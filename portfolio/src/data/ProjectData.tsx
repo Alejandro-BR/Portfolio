@@ -94,7 +94,7 @@ export const useProjectList = (): ProjectCardInterface[] => {
         npm: "https://www.npmjs.com/package/webpify-cli",
       },
       features: t("webpifyFeatures", { returnObjects: true }) as string[],
-      // extraInfo: t("webpifyExtraInfo"),
+      extraInfo: t("webpifyExtraInfo"),
     },
     {
       slug: "Latency-Zero",
@@ -125,7 +125,7 @@ export const useProjectList = (): ProjectCardInterface[] => {
       links: {
         github: "https://github.com/Latency-Zero-tfm/LatencyZero",
       },
-      features: t("latencyzeroFeatures", {
+      features: t("latencyZeroFeatures", {
         returnObjects: true,
       }) as string[],
     },
