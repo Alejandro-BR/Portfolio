@@ -132,6 +132,14 @@
     "Clear and intuitive CLI with customizable flags.",
     "Open-source and available on npm and GitHub."
   ],
+  "webpifyDockerDescription": "Docker image for the Webpify CLI, enabling image conversion to WebP without installing Node.js locally. Ideal for container-based workflows, fast setup, and deployment in CI/CD environments.",
+  "webpifyDockerFeatures": [
+    "Prebuilt Docker image for Webpify available on Docker Hub.",
+    "Runs the Webpify CLI without local Node.js installation.",
+    "Supports PNG, JPG, HEIC, and HEIF input files inside the container.",
+    "Simplifies deployment in containerized environments and CI pipelines.",
+    "Uses the same Webpify image optimization workflow through Docker."
+  ],
   "latencyZeroFeatures": [
     "Intelligent web platform focused on hardware analysis and PC component compatibility",
     "AI-powered assistant for custom PC configuration and building",
@@ -158,6 +166,8 @@
   "webpifyExtraInfo": "To install webpify-cli, run this command in your terminal:  npm i -g webpify-cli",
   "webpifyCommandHelper": "To install Webpify CLI, run this command in your terminal.",
   "webpifyRunHelper": "To run Webpify, use the following command:",
+  "webpifyDockerPullHelper": "Pull the latest Webpify Docker image:",
+  "webpifyDockerRunHelper": "Run the Docker container with your image files:",
   "instructions": "Instructions",
   "inProgress": "In Progress",
   "aibigdata": "AI and Big Data"

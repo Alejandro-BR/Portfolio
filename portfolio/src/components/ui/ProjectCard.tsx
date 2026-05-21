@@ -132,6 +132,17 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({
             Npm
           </a>
         )}
+        {links.docker && (
+          <a
+            href={links.docker}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.linkButton}
+          >
+            <img src="/svg/docker.svg" alt="Docker" />
+            Docker
+          </a>
+        )}
       </div>
       <div className="flex justify-end">
         <Link

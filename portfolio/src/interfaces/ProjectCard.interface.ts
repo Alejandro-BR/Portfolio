@@ -7,6 +7,7 @@ export interface ProjectLinks {
   github?: string;
   demo?: string;
   npm?: string;
+  docker?: string;
 }
 
 export interface ProjectCardInterface {

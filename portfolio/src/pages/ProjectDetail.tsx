@@ -5,6 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useTranslation } from "react-i18next";
 import styles from "./ProjectDetail.module.css";
 import WebpifyInstructions from "../components/ui/WebpifyInstructions";
+import WebpifyDockerInstructions from "../components/ui/WebpifyDockerInstructions";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
@@ -188,7 +189,8 @@ const ProjectDetail = () => {
 
       {project.extraInfo && <p className="text-base">{project.extraInfo}</p>}
 
-      {project.slug?.includes("webpify") && <WebpifyInstructions />}
+      {project.slug === "webpify" && <WebpifyInstructions />}
+      {project.slug === "webpify-docker" && <WebpifyDockerInstructions />}
     </section>
   );
 };
